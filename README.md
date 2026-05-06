@@ -32,31 +32,10 @@ A high-performance, **multi-user Discord bot** that manages Minecraft Java 26.1 
 ```bash
 git clone tbhidkwhy379/Minecraft-Online-Discord-AFK-bot
 cd Minecraft-Online-Discord-AFK-bot
-npm install
+setup.bat / setup.sh
 ```
 
-### 3. Configure Environment
-
-```bash
-cp .env.example .env
-```
-
-Open `.env` and fill in:
-
-```env
-DISCORD_TOKEN=your-discord-bot-token
-OWNER_ID=your-discord-user-id
-ENCRYPTION_KEY=<96-hex-char random string>
-MC_HOST=play.yourserver.net
-MC_PORT=25565
-```
-
-> **Generate a strong key:**
-> ```bash
-> node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
-> ```
-
-### 4. Run
+### 3. Run
 
 ```bash
 npm start
