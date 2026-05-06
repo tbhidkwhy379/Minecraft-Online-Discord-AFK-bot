@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-manager",
+  "version": "1.0.0",
+  "description": "Multi-user Minecraft 26.1 bot manager for Discord with encrypted session storage.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":   "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js":       "^14.15.0",
+    "dotenv":           "^16.4.5",
+    "mineflayer":       "^4.23.0",
+    "prismarine-auth":  "^2.4.0"
+  },
+  "license": "MIT"
+}
