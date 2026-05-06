@@ -30,8 +30,8 @@ A high-performance, **multi-user Discord bot** that manages Minecraft Java 26.1 
 ### 2. Clone & Install
 
 ```bash
-git clone https://github.com/you/minecraft-manager.git
-cd minecraft-manager
+git clone tbhidkwhy379/Minecraft-Online-Discord-AFK-bot
+cd Minecraft-Online-Discord-AFK-bot
 npm install
 ```
 
